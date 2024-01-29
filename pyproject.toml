@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bitext-utils"
+version = "0.1.0"
+description = ""
+authors = ["msoutopico <m.soutopico@gmail.com>"]
+readme = "README.md"
+packages = [{include = "bitext_utils"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+lxml = "^5.1.0"
+regex = "^2023.12.25"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
